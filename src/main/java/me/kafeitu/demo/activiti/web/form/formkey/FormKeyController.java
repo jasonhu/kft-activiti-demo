@@ -92,7 +92,7 @@ public class FormKeyController {
     }
 
     /**
-     * 初始化启动流程，读取启动流程的表单内容来渲染start form
+     * 读取启动流程的表单内容
      */
     @RequestMapping(value = "get-form/start/{processDefinitionId}")
     @ResponseBody
@@ -115,7 +115,7 @@ public class FormKeyController {
     }
 
     /**
-     * 办理任务，提交task的并保存form
+     * 提交task的并保存form
      */
     @RequestMapping(value = "task/complete/{taskId}")
     @SuppressWarnings("unchecked")

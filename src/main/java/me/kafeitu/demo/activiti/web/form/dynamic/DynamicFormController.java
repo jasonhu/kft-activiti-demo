@@ -111,7 +111,7 @@ public class DynamicFormController {
     }
 
     /**
-     * 初始化启动流程，读取启动流程的表单字段来渲染start form
+     * 读取启动流程的表单字段
      */
     @RequestMapping(value = "get-form/start/{processDefinitionId}")
     @ResponseBody
@@ -172,7 +172,7 @@ public class DynamicFormController {
     }
 
     /**
-     * 办理任务，提交task的并保存form
+     * 提交task的并保存form
      */
     @RequestMapping(value = "task/complete/{taskId}")
     @SuppressWarnings("unchecked")
@@ -212,7 +212,7 @@ public class DynamicFormController {
     }
 
     /**
-     * 提交启动流程
+     * 读取启动流程的表单字段
      */
     @RequestMapping(value = "start-process/{processDefinitionId}")
     @SuppressWarnings("unchecked")
